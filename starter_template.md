@@ -13,4 +13,5 @@
   var dbPromise = idb.open('test-db1', 1);
 
 })();
+// IDBFactory {}
 ```
