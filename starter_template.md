@@ -1,4 +1,4 @@
-[all credits to google devs](https://developers.google.com/web/ilt/pwa/working-with-indexeddb)
+[All credits to google devs](https://developers.google.com/web/ilt/pwa/working-with-indexeddb)
 
 ```javascript
 var anonym = {
@@ -15,11 +15,12 @@ var anonym = {
       if (request) {
       resolve(event);
       } else {
-      reject(event)
+      reject(event);
       }
       });
       promiseObj.then((event)=> {idb = event.target.result})
-      promiseObj.catch((event)=> {console.log("Why didn't you allow my web app to use IndexedDB?!")})}};
+      promiseObj.catch((event)=> {console.log("Why didn't you allow my web app to use IndexedDB?!")})
+      }};
       anonym.getIDB();
       // IDBFactory
 ```
